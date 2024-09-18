@@ -16,8 +16,8 @@ int main()
 	purchasedDrink = CUSTOMERS_SURVEYED * purchasedDrinkPercent;
 	likeCitrus = purchasedDrink * likeCitrusPercent;
 
-	cout << purchasedDrink << endl;
-	cout << likeCitrus;
+	cout << "A total of " << purchasedDrink << " customers purchase at least 1 energy drink per week." << endl;
+	cout << "Out of these customers, " << likeCitrus << " of them like citrus flavored energy drinks.";
 
 	return 0;
 }
